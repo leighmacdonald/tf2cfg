@@ -1,4 +1,4 @@
-My TF2 conf.
+TF2 conf.
 =============
 
-gfx is based on rhapsody dx9 config.
+Simple repo containing my current Team Fortress 2 configs.
