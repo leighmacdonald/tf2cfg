@@ -226,11 +226,6 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"scaleImage"	"1"
-		
-		if_fullmoon
-		{
-			"tall"		"0"
-		}
 	}
 	
 	"MainMenuBGPanel"
@@ -4493,7 +4488,7 @@
 			"zpos"					"100"
 			"wide"					"80"
 			"tall"					"o1"
-			"visible"				"1"
+			"visible"				"0"
 			"enabled"				"1"
 			"image"					"new_large"
 			"scaleImage"			"1"

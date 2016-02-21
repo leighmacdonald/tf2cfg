@@ -18,7 +18,7 @@
 		"textAlignment"	"Center"
 		"dulltext"		"0"
 		"brighttext"	"0"
-		"fgcolor"		"0 255 0 255"
+		"fgcolor"		"255 150 0 255"
 	}
 	
 	"ItemBackground"	
@@ -55,7 +55,7 @@
 		"textAlignment"	"Center"
 		"dulltext"		"0"
 		"brighttext"	"0"
-		"fgcolor"		"0 255 0 255"
+		"fgcolor"		"255 150 0 255"
 	}	
 
 	"UnavailableLabel"
@@ -76,7 +76,7 @@
 		"textAlignment"	"Center"
 		"dulltext"		"0"
 		"brighttext"	"0"
-		"fgcolor"		"0 255 0 255"
+		"fgcolor"		"255 150 0 255"
 	}	
 	
 	"NumberBg"	
@@ -92,7 +92,7 @@
 		"enabled"		"1"
 		"scaleImage"	"1"	
 		"icon"			"ico_key_blank"
-		"iconColor"		"0 255 0 128"
+		"iconColor"		"255 140 0 128"
 	}
 	
 	"NumberLabel"
@@ -114,6 +114,6 @@
 		"textAlignment"	"Center"
 		"dulltext"		"1"
 		"brighttext"	"0"
-		"fgcolor"		"0 255 0 255"
+		"fgcolor"		"255 150 0 255"
 	}
 }

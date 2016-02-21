@@ -18,7 +18,7 @@
 		"textAlignment"	"Center"
 		"dulltext"		"0"
 		"brighttext"	"0"
-		"fgcolor"		"0 255 0 255"
+		"fgcolor"		"255 150 0 255"
 	}
 
 	"ItemBackground"	
@@ -50,7 +50,7 @@
 		"enabled"		"1"
 		"scaleImage"	"1"	
 		"icon"			"hud_menu_sentry_build"
-		"iconColor"		"0 255 0 255"
+		"iconColor"		"255 150 0 255"
 	}
 	
 	"MetalIcon"	
@@ -66,7 +66,7 @@
 		"enabled"		"1"
 		"scaleImage"	"1"	
 		"icon"			"ico_metal"
-		"iconColor"		"0 255 0 255"
+		"iconColor"		"205 102 0 255"
 	}
 	
 	"CostLabel"
@@ -74,7 +74,7 @@
 		"ControlName"	"CExLabel"
 		"fieldName"		"CostLabel"
 		"font"			"HudFontSmallBold"
-		"fgcolor"		"0 255 0 255"
+		"fgcolor"		"255 150 0 255"
 		"xpos"			"26"
 		"ypos"			"14"
 		"zpos"			"1"
@@ -120,7 +120,7 @@
 		"enabled"		"1"
 		"scaleImage"	"1"	
 		"icon"			"ico_key_blank"
-		"iconColor"		"0 255 0 255"
+		"iconColor"		"255 150 0 255"
 	}
 	
 	"NumberLabel"
@@ -142,6 +142,6 @@
 		"textAlignment"	"Center"
 		"dulltext"		"1"
 		"brighttext"	"0"
-		"fgcolor"		"0 255 0 255"
+		"fgcolor"		"255 150 0 255"
 	}
 }

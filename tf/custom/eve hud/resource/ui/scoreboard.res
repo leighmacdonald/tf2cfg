@@ -588,7 +588,7 @@
 		"enabled"				"1"
 		"tabPosition"				"0"
 		"autoresize"				"3"
-		"linespacing"				"13"	//"18"--24p		//"13"--32p
+		"linespacing"				"18"	//"18"--24p		//"13"--32p
 		"linegap"					"1"
 		"fgcolor"				"blue"
 		
@@ -611,7 +611,7 @@
 		"enabled"				"1"
 		"tabPosition"				"0"
 		"autoresize"				"3"
-		"linespacing"				"13"
+		"linespacing"				"18"
 		"linegap"					"1"
 		"textcolor"				"red"
 		

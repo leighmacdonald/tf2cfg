@@ -26,7 +26,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"scaleImage"	"1"	
-		"image"			"pipboy_overlay"
+		"image"			"/logos/pipboy/pipboy_overlay_amber"
 		"tileImage"		"1"
 		"drawcolor"		"192 192 192 255"
 	}
@@ -42,7 +42,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"scaleImage"	"1"	
-		"image"			"pipboy_engineer"
+		"image"			"/logos/pipboy/pipboy_engineer_amber"
 		"tileImage"		"0"
 		"tileVertically" "0"
 	}
@@ -60,7 +60,7 @@
 		"enabled"		"1"
 		"scaleImage"	"1"	
 		"icon"			"ico_build"
-		"iconColor"		"0 255 0 255"
+		"iconColor"		"255 150 0 255"
 	}	
 	"BuildIcon2"	
 	{
@@ -96,7 +96,7 @@
 		"textAlignment"	"Center"
 		"dulltext"		"0"
 		"brighttext"	"0"
-		"fgcolor"		"0 255 0 255"
+		"fgcolor"		"255 150 0 255"
 	}
 	
 	"CancelLabel"
@@ -362,7 +362,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"tabPosition"	"0"	
-		"fillcolor"		"0 255 0 100"
+		"fillcolor"		"255 140 0 150"
 		"PaintBackgroundType"	"0"
 	}
 }
