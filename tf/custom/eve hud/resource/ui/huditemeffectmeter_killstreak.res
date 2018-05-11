@@ -40,7 +40,27 @@
 		"draw_corner_width"		"0"
 		"draw_corner_height" 	"0"			
 	}
-	
+	"IconBG"
+	{
+		"ControlName"			"ImagePanel"
+		"fieldName"				"IconBG"
+		"xpos"					"4"
+		"xpos_minmode"			"3"
+		"ypos"					"5"
+		"ypos_minmode"			"6"
+		"zpos"					"0"
+		"wide"					"14"
+		"wide_minmode"			"12"
+		"tall"					"15"
+		"tall_minmode"			"12"
+		"autoResize"			"0"
+		"pinCorner"				"0"
+		"visible"				"1"		
+		"visible_minmode"		"1"
+		"enabled"				"1"
+		"fillcolor"				"0 0 0 150"
+		"PaintBackgroundType"	"0"
+	}
 	"Icon"
 	{
 		"ControlName"	"ImagePanel"
@@ -49,7 +69,7 @@
 		"ypos"			"1"
 		"xpos_minmode"	"0"
 		"ypos_minmode"	"3"
-		"zpos"			"-2"
+		"zpos"			"2"
 		"wide"			"22"
 		"tall"			"22"
 		"wide_minmode"	"18"
@@ -58,7 +78,7 @@
 		//"visible_minmode"		"0"
 		"enabled"				"1"
 		// "drawcolor"			"200 200 0"
-		"image"			"../hud/leaderboard_nemesis"
+		"image"			"../hud/leaderboard_streak"
 		//"image"			"../hud/leaderboard_streak"
 		"scaleImage"	"1"
 	}

@@ -159,7 +159,7 @@
 		"ypos"			"42"
 		"zpos"			"0"			// draw in front of ammo
 		"wide"			"200"
-		"tall"			"50"
+		"tall"			"60"
 		"MeterFG"		"Red"
 		"MeterBG"		"Gray"
 	}
@@ -872,12 +872,14 @@
 		"fieldName"				"WinPanel"
 		"visible"				"1"
 		"enabled"				"1"
-		"xpos"					"c-140"
-		"ypos"					"231"
-		"wide"					"280"
-		"tall"					"239"
+		
+		"xpos"					"c-150"
+		"ypos"					"215"
+		"wide"					"300"
+		"tall"					"300"
 		
 		"zpos"			"11"
+		"proportionaltoparent"	"1"
 	}
 
 	ArenaWinPanel
@@ -1088,10 +1090,10 @@
 		"fieldName"				"HudTeamGoalTournament"
 		"visible"				"1"
 		"enabled"				"1"
-		"xpos"					"c-160"
-		"ypos"					"15"
+		"xpos"					"c-180"
+		"ypos"					"65"
 		"wide"					"320"
-		"tall"					"245"
+		"tall"					"245"	//300??
 	}
 
 	HudTeamSwitch
@@ -1166,9 +1168,9 @@
 		"fieldName"				"HudStopWatch"
 		"visible"				"1"
 		"enabled"				"1"
-		"xpos"					"c-155"
+		"xpos"					"c0"
 		"ypos"					"-3"
-		"wide"					"125"
+		"wide"					"145"
 		"tall"					"55"
 		"zpos"					"10"
 		
@@ -1181,7 +1183,7 @@
 		"visible"				"1"
 		"enabled"				"1"
 		"xpos"					"c-320"
-		"ypos"					"35"
+		"ypos"					"r110"
 		"zpos"					"1"
 		"wide"					"640"
 		"tall"					"100"
@@ -1457,18 +1459,6 @@
 		"tall"	"f0"
 	}
 
-	"QuestLogContainer"
-	{
-		"ControlName"		"EditablePanel"
-		"fieldName" 		"QuestLogContainer"
-		"visible" 		"1"
-		"enabled" 		"1"
-		"xpos"			"0"
-		"ypos"			"0"
-		"wide"	 		"f0"
-		"tall"	 		"f0"
-	}
-
 	"MatchMakingContainer"
 	{
 		"ControlName"		"EditablePanel"
@@ -1490,5 +1480,44 @@
 		"ypos"	"0"
 		"wide"	"f0"
 		"tall"	"f0"
+	}
+
+	MatchSummary
+	{
+		"fieldName" "MatchSummary"
+		"visible" "0"
+		"enabled" "1"
+		"xpos"	"0"
+		"ypos"	"0"
+		"wide"	"f0"
+		"tall"	"f0"
+	}
+
+	HudMatchStatus
+	{
+		"fieldName"				"HudMatchStatus"
+		"visible"				"1"
+		"enabled"				"1"
+		"xpos"					"0"
+		"ypos"					"0"
+		"zpos"					"10"
+		"wide"					"f0"
+		"tall"					"f0"
+	}
+
+	"QueueHUDStatus"
+	{
+		"fieldName"				"QueueHUDStatus"
+		"visible"				"1"
+		"enabled"				"1"
+		"xpos"					"rs1-5"
+		"ypos"					"1"
+		"zpos"					"1001"
+		"wide"					"200"
+		"tall"					"18"
+		"proportionaltoparent"	"1"
+		"keyboardinputenabled"	"1"
+		"mouseinputenabled"		"0"
+		"alpha"					"100"
 	}
 }

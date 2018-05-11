@@ -35,9 +35,9 @@
 		"ypos"			"9"
 		"zpos"			"20"
 		"wide"			"60"
-		"tall"			"60"
+		"tall"			"0"//"60"
 		"visible"		"0"
-		"enabled"		"1"
+		"enabled"		"0"
 		"image"			"../hud/team_blue"
 		"scaleImage"		"1"
 
@@ -55,9 +55,9 @@
 		"ypos"			"-5"
 		"zpos"			"20"
 		"wide"			"80"
-		"tall"			"80"
+		"tall"			"0"//"80"
 		"visible"		"0"
-		"enabled"		"1"
+		"enabled"		"0"
 		"image"			"../hud/team_red"
 		"scaleImage"		"1"
 
@@ -239,6 +239,7 @@
 		"textAlignment"		"west"
 		"xpos"				"c-292"
 		"ypos"				"98"
+		"zpos"				"100"
 		"wide"				"140"
 		"tall"				"20"
 		"autoResize"			"0"
@@ -261,6 +262,7 @@
 		"textAlignment"				"east"
 		"xpos"						"c152"
 		"ypos"						"98"
+		"zpos"						"100"
 		"wide"						"140"
 		"tall"						"20"
 		"autoResize"					"0"
@@ -588,7 +590,7 @@
 		"enabled"				"1"
 		"tabPosition"				"0"
 		"autoresize"				"3"
-		"linespacing"				"18"	//"18"--24p		//"13"--32p
+		"linespacing"				"13"	//"18"--24p		//"13"--32p
 		"linegap"					"1"
 		"fgcolor"				"blue"
 		
@@ -611,7 +613,7 @@
 		"enabled"				"1"
 		"tabPosition"				"0"
 		"autoresize"				"3"
-		"linespacing"				"18"
+		"linespacing"				"13"
 		"linegap"					"1"
 		"textcolor"				"red"
 		
@@ -884,58 +886,6 @@
 			"spotlight" "1"
 		
 			"modelname"		""
-			
-			"animation"
-			{
-				"name"		"PRIMARY"
-				"activity"	"ACT_MP_STAND_PRIMARY"
-				"default"	"1"
-			}
-			"animation"
-			{
-				"name"		"SECONDARY"
-				"activity"	"ACT_MP_STAND_SECONDARY"
-			}
-			"animation"
-			{
-				"name"		"MELEE"
-				"activity"	"ACT_MP_STAND_MELEE"
-			}
-			"animation"
-			{
-				"name"		"BUILDING"
-				"activity"	"ACT_MP_STAND_BUILDING"
-			}
-			"animation"
-			{
-				"name"		"PDA"
-				"activity"	"ACT_MP_STAND_PDA"
-			}
-			"animation"
-			{
-				"name"		"ITEM1"
-				"activity"	"ACT_MP_STAND_ITEM1"
-			}						
-			"animation"
-			{
-				"name"		"ITEM2"
-				"activity"	"ACT_MP_STAND_ITEM2"
-			}									
-			"animation"
-			{
-				"name"		"MELEE_ALLCLASS"
-				"activity"	"ACT_MP_STAND_MELEE_ALLCLASS"
-			}
-			"animation"
-			{
-				"name"		"PRIMARY2"
-				"activity"	"ACT_MP_STAND_PRIMARY"
-			}
-			"animation"
-			{
-				"name"		"SECONDARY2"
-				"activity"	"ACT_MP_STAND_SECONDARY2"
-			}
 		}
 
 		"customclassdata"

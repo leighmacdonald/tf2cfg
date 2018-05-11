@@ -587,19 +587,6 @@
 		"visible"		"1"
 		"zpos"			"3"
 
-		"Player1Medal"
-		{
-			"ControlName"		"ImagePanel"
-			"fieldName"		"Player1Medal"
-			"xpos"			"14"
-			"ypos"			"138"
-			"wide"			"18"
-			"tall"			"18"
-			"visible"		"0"
-			"enabled"		"1"
-			"image"			""
-			"scaleImage"		"1"	
-		}
 		"Player1Avatar"
 		{
 			"ControlName"	"CAvatarImagePanel"
@@ -716,19 +703,6 @@
 			"dulltext"		"0"
 			"brighttext"	"0"
 		}
-		"Player2Medal"
-		{
-			"ControlName"		"ImagePanel"
-			"fieldName"		"Player2Medal"
-			"xpos"			"14"
-			"ypos"			"160"
-			"wide"			"18"
-			"tall"			"18"
-			"visible"		"0"
-			"enabled"		"1"
-			"image"			""
-			"scaleImage"		"1"	
-		}
 		"Player2Avatar"	
 		{
 			"ControlName"	"CAvatarImagePanel"
@@ -844,19 +818,6 @@
 			"textAlignment"	"east"
 			"dulltext"		"0"
 			"brighttext"	"0"
-		}
-		"Player3Medal"
-		{
-			"ControlName"		"ImagePanel"
-			"fieldName"		"Player3Medal"
-			"xpos"			"14"
-			"ypos"			"182"
-			"wide"			"18"
-			"tall"			"18"
-			"visible"		"0"
-			"enabled"		"1"
-			"image"			""
-			"scaleImage"		"1"	
 		}
 		"Player3Avatar"
 		{
@@ -986,19 +947,6 @@
 		"visible"		"1"
 		"zpos"			"3"
 
-		"Player1Medal"
-		{
-			"ControlName"		"ImagePanel"
-			"fieldName"		"Player1Medal"
-			"xpos"			"14"
-			"ypos"			"138"
-			"wide"			"18"
-			"tall"			"18"
-			"visible"		"0"
-			"enabled"		"1"
-			"image"			""
-			"scaleImage"		"1"	
-		}
 		"Player1Avatar"
 		{
 			"ControlName"	"CAvatarImagePanel"
@@ -1115,19 +1063,6 @@
 			"dulltext"		"0"
 			"brighttext"	"0"
 		}
-		"Player2Medal"
-		{
-			"ControlName"		"ImagePanel"
-			"fieldName"		"Player2Medal"
-			"xpos"			"14"
-			"ypos"			"160"
-			"wide"			"18"
-			"tall"			"18"
-			"visible"		"0"
-			"enabled"		"1"
-			"image"			""
-			"scaleImage"		"1"	
-		}
 		"Player2Avatar"	
 		{
 			"ControlName"	"CAvatarImagePanel"
@@ -1243,19 +1178,6 @@
 			"textAlignment"	"east"
 			"dulltext"		"0"
 			"brighttext"	"0"
-		}
-		"Player3Medal"
-		{
-			"ControlName"		"ImagePanel"
-			"fieldName"		"Player3Medal"
-			"xpos"			"14"
-			"ypos"			"182"
-			"wide"			"18"
-			"tall"			"18"
-			"visible"		"0"
-			"enabled"		"1"
-			"image"			""
-			"scaleImage"		"1"	
 		}
 		"Player3Avatar"
 		{

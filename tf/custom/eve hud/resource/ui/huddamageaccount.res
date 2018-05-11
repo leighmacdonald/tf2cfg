@@ -74,16 +74,16 @@
 		"textAlignment"	"center"
 		"zpos"			"1"
 		"enabled"		"1"
-		"visible"		"1"
+		"visible"		"0"
 
 		"xpos"			"c-28"
 		"ypos"			"c-25"
-		"wide"			"51"
+		"wide"			"53"
 		"tall"			"50"
 
-		"font"			"crosshair40outline"
+		"font"			"crosshair40"
 		"labelText"		"o"
-		"fgcolor"		"0 255 72 220"
+		"fgcolor"		"255 30 30 220"
 	}
 	//////////////////////// HitMarker end ////////////////////////
 }

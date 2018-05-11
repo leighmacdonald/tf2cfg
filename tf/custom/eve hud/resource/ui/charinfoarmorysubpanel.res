@@ -253,8 +253,8 @@
 		"visible"		"0"
 		"bgcolor_override"		"0 0 0 0"
 		"noitem_textcolor"		"117 107 94 255"
-		"PaintBackgroundType"	"0"
-		"paintborder"	"0"
+		"PaintBackgroundType"	"2"
+		"paintborder"	"1"
 		
 		"text_ypos"			"20"
 		"text_center"		"1"
@@ -277,20 +277,6 @@
 			"inventory_image_type" "1"
 			"allow_rot"				"0"
 		}
-		
-		"BG"
-    	{
-    		"ControlName"			"ImagePanel"
-    		"fieldName"			"BG"
-    		"xpos"				"0"
-    		"ypos"				"0"
-    		"zpos"				"-10"
-    		"wide"				"f0"
-    		"tall"	 			"f0"
-    		"visible"			"1"
-    		"enabled"			"1"
-    		"fillcolor"			"55 55 55 250"
-    	}
 	}
 	
 	"PrevPageButton"

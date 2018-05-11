@@ -1,47 +1,10 @@
 "GameMenu"
 {
-	"QuickplayButton"
+	"ConsoleButton"
 	{
-		"label" "#MMenu_PlayMultiplayer"	//"#MMenu_StartPlaying" 
-		"command" "quickplay"
-		"subimage" "glyph_multiplayer"	//"glyph_server"
-		"OnlyAtMenu" "1"
-	}
-	"QuickplayChangeButton"
-	{
-		"label" "#MMenu_NewGame" 
-		"command" "quickplay"
-		"subimage" "glyph_server"
-		"OnlyInGame" "1"
-	}
-	"PlayPVEButton"
-	{
-		"label" "#MMenu_PlayCoop" 
-		"command" "playpve"
-		"subimage" "glyph_coop"
-		//"OnlyAtMenu" "1"
-	}
-	"PlayCompetitiveButton"
-	{
-		"label" "#MMenu_PlayComp" 
-		"command" "ladder_ui_show"
-		"subimage" "glyph_practice"
-		"OnlyAtMenu" "1"
-		"OnlyWhenCompetitiveEnabled" "1"
-	}
-	"ServerBrowserButton"
-	{
-		"label" "#MMenu_Servers"	//"#MMenu_BrowseServers" 
-		"command" "OpenServerBrowser"
-		"subimage" "glyph_server_browser"
-		"OnlyAtMenu" "1"
-	} 
-	"ChangeServerButton"
-	{
-		"label" "#MMenu_ChangeServer" 
-		"command" "OpenServerBrowser"
-		"subimage" "glyph_server_browser"
-		"OnlyInGame" "1"
+		"label"			""
+		"command"		"engine toggleconsole"
+		"subimage"		""
 	}
 	"ReplayBrowserButton"
 	{
@@ -70,14 +33,6 @@
 		"subimage" "glyph_vr"
 		"OnlyWhenVREnabled" "1"
 	}
-	"TrainingButton"
-	{
-		"label" "#TF_Training"
-		"command" "offlinepractice"
-		"subimage" "glyph_practice"
-		"tooltip" "#TF_Training"
-		//"OnlyAtMenu" "1"
-	}
 	
 	"AdvSettingsButton"
 	{
@@ -88,21 +43,14 @@
 	}
 	
 	// These buttons get positioned by the MainMenuOverride.res	
-	"CreateServerButton"
-	{
-		"label" "#GameUI_GameMenu_CreateServer"
-		"command" "OpenCreateMultiplayerGameDialog"
-		"tooltip" "#GameUI_GameMenu_CreateServer"
-		//"OnlyAtMenu" "1"
-	}
-	"GeneralStoreButton"
+	"GeneralStoreButton2"
 	{
 		"label" "#MMenu_Shop"
 		"command" "engine open_store"
 		"subimage" "glyph_store"
 		"tooltip" "#MMenu_StoreHighlightPanel_Title"
 	}	
-	"CharacterSetupButton"
+	"CharacterSetupButton2"
 	{
 		"label" "#MMenu_CharacterSetup"
 		"command" "engine open_charinfo"
@@ -111,26 +59,20 @@
 
 	// These buttons are only shown while in-game
 	// and also are positioned by the .res file
-	"QuitButtonHidden"
-	{
-		"label"			"#TF_Quit_Title"
-		"command"		"quit"
-		"subimage"		"glyph_close_X"
-		"OnlyInGame"	"1"
-	}
-	"ResumeGameButton"
-	{
-		"label"			"#MMenu_ResumeGame"
-		"command"		"ResumeGame"
-		"subimage"		"icon_resume"
-		"OnlyInGame"	"1"
-	}
 	"ResumeGameButtonBG"
 	{
 		"label"			""
 		"command"		"ResumeGame"
 		"subimage"		""
 		"OnlyInGame"	"1"
+	}
+	"ReportPlayerButton"
+	{
+		"label"			""
+		"command"		"OpenReportPlayerDialog"
+		"OnlyInGame"	"1"
+		"subimage"		"glyph_alert"
+		"tooltip"		"#MMenu_ReportPlayer"
 	}
 	"CallVoteButton"
 	{

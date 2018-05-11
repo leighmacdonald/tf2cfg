@@ -18,7 +18,7 @@
 		"textAlignment"	"center"
 		"dulltext"		"0"
 		"brighttext"	"0"
-		"fgcolor"		"255 150 0 255"
+		"fgcolor"		"0 255 0 255"
 	}
 	
 	"ItemBackground"	
@@ -50,7 +50,7 @@
 		"enabled"		"1"
 		"scaleImage"	"1"	
 		"icon"			"ico_demolish"
-		"iconColor"		"255 150 0 255"
+		"iconColor"		"0 255 0 255"
 	}
 	
 	"BuildingIcon"	
@@ -66,7 +66,7 @@
 		"enabled"		"1"
 		"scaleImage"	"1"	
 		"icon"			"obj_status_sentrygun_1"
-		"iconColor"		"255 150 0 255"
+		"iconColor"		"0 255 0 255"
 	}
 	
 	"NumberBg"	
@@ -82,7 +82,7 @@
 		"enabled"		"1"
 		"scaleImage"	"1"	
 		"icon"			"ico_key_blank"
-		"iconColor"		"255 150 0 255"
+		"iconColor"		"0 255 0 255"
 	}
 	
 	"NumberLabel"
@@ -104,6 +104,6 @@
 		"textAlignment"	"Center"
 		"dulltext"		"1"
 		"brighttext"	"0"
-		"fgcolor"		"255 150 0 255"
+		"fgcolor"		"0 255 0 255"
 	}
 }
